@@ -1,0 +1,25 @@
+#about {
+    /* display: flex; */
+}
+
+#about-card {
+    display: flex;
+    /* order: 2; */
+    justify-content: right;
+    width: 100%;
+
+}
+
+.image.featured {
+    /* height: 30vw; */
+    width: 30vw;
+    object-fit: contain;
+    order: 1;
+    margin-left: 5vw;
+    border-radius: 20vw;
+}
+
+.about-details {
+    width: 40vw;
+
+}

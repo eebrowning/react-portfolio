@@ -1,0 +1,13 @@
+#outer-resume {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#resume {
+    /* height: 100%; */
+    height: 35rem;
+    width: 42rem;
+    margin: auto;
+}

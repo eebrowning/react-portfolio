@@ -1,23 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
+import Projects from './Components/projects/Projects';
+import Footer from './Components/footer/Footer';
+import Contact from './Components/contact/Contact';
+import Skills from './Components/skills/Skills';
+import About from './Components/about/About';
+import Navigation from './Components/nav/Navigation';
+import Resume from './Components/resume/Resume';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <head>
+        <title>Ethan Browning</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+        {/* <link rel="stylesheet" href="assets/css/main.css" /> */}
+      </head>
+      <body>
+
+        <Navigation />
+        <About />
+        <div class='side-by-side'>
+        </div>
+        <Projects />
+        <Skills />
+        <Resume />
+        <Contact />
+        <Footer />
+
+      </body>
     </div>
   );
 }

@@ -1,0 +1,16 @@
+#skills {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    border: 1px solid chartreuse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px 0 30px 0;
+}
+
+
+.img-fluid {
+    height: 65px;
+    width: 65px;
+    /* object-fit: contain; */
+}
