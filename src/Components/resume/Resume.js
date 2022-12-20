@@ -13,7 +13,7 @@ const Resume = () => {
 
     return (
         <div id='resume-toggle'>
-            <button onClick={handleClick}>Show Resume</button>
+            <button id='resume-button' onClick={handleClick}>{toggle ? "Close Resume" : "Show Resume"}</button>
             <div id='outer-resume' >
                 <embed style={{ display: toggle ? 'block' : 'none' }} id='resume' src={filePDF} type="application/pdf"></embed>
             </div>

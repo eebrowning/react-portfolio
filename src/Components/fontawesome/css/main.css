@@ -1691,22 +1691,6 @@ article:last-child {
 	max-width: 400px;
 }
 
-#image-resume {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	margin: 0 0 2em 0;
-	/* max-width: 400px; */
-}
-
-#resume-button {
-	display: flex;
-	align-items: center;
-	height: 55px;
-	margin-bottom: 30px;
-}
 
 .image.fit {
 	display: block;

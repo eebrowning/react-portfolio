@@ -8,11 +8,31 @@
     margin: auto;
 }
 
+
+#resume-button {
+    width: 200px;
+    margin: auto;
+    height: 3rem;
+    border-radius: 4px;
+    background-color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#resume-button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+
+
 #outer-resume {
     width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+
 }
 
 #resume {
