@@ -25,7 +25,7 @@ function App() {
         <About />
         <div class='side-by-side'>
         </div>
-        <Projects />
+        {/* <Projects /> */}
         <Skills />
         <Resume />
         <Contact />

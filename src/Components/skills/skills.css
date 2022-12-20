@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     flex-direction: row;
-    border: 1px solid chartreuse;
+    /* border: 1px solid chartreuse; */
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 30px 0 30px 0;

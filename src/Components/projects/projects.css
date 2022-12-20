@@ -10,7 +10,8 @@
     border: 1px solid whitesmoke;
     border-radius: 4px;
     margin: auto;
-
+    background-color: white;
+    ;
 }
 
 #projects-box-outer>h2 {
@@ -111,7 +112,7 @@
     border-radius: 4px;
     background-color: whitesmoke;
     color: black;
-    width: 18rem;
+    width: 20rem;
     height: 25rem;
 
 
@@ -124,6 +125,8 @@
 .info p {
     font-size: 14px;
     text-overflow: scroll;
+    padding-left: 15px;
+    /* text-indent: -10px; */
 }
 
 

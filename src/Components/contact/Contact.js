@@ -1,4 +1,4 @@
-
+import "./contact.css"
 
 const Contact = () => {
 
@@ -12,23 +12,23 @@ const Contact = () => {
                         message!</p>
                 </div>
             </header>
-            <div class="content style4 featured">
-                <div class="container medium">
-                    <form method="post" action="https://formspree.io/f/mpznpdez">
-                        <div class="row gtr-50">
-                            <div class="col-6 col-12-mobile"><input type="text" placeholder="Name" /></div>
-                            <div class="col-6 col-12-mobile"><input type="text" placeholder="Email" /></div>
-                            <div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
-                            <div class="col-12">
-                                <ul class="actions special">
-                                    <li><input type="submit" class="button" value="Send Message" /></li>
-                                    <li><input type="reset" class="button alt" value="Clear Form" /></li>
-                                </ul>
-                            </div>
+
+            <div class="form-container">
+                <form method="post" action="https://formspree.io/f/mpznpdez">
+                    <div class="fields">
+                        <div class='row'>
+                            <div class="name"><input type="text" placeholder="Name" /></div>
+                            <div class="email"><input type="text" placeholder="Email" /></div>
                         </div>
-                    </form>
-                </div>
+                        <div class="message"><textarea name="message" placeholder="Message"></textarea></div>
+                        <div class="actions">
+                            <input type="submit" class="button" value="Send Message" />
+                            <input type="reset" class="button alt" value="Clear Form" />
+                        </div>
+                    </div>
+                </form>
             </div>
+
         </section>
     )
 }
