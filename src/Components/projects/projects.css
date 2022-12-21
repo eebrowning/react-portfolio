@@ -169,3 +169,34 @@
 .white-arrow:hover {
     cursor: pointer;
 }
+
+
+
+@media screen and (max-width: 1130px) {
+    #projects-box-outer {
+        display: flex;
+        flex-direction: column;
+        /* order: 2; */
+        /* justify-content: right; */
+        height: 100%;
+        ;
+        width: 100%;
+        margin-top: -45px;
+    }
+
+    .project-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 22rem;
+        /* height: 35rem; */
+        height: 100%;
+        overflow-wrap: break-word;
+        white-space: pre-wrap;
+        align-items: center;
+        /* border: 1px solid red; */
+
+
+    }
+
+}
