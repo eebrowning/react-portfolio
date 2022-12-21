@@ -69,7 +69,7 @@
     align-items: center;
     box-shadow: -3px 3px 3px rgb(206, 203, 203);
     border: 1px solid whitesmoke;
-    height: 33rem;
+    /* height: 33rem; */
     width: 40%;
     position: relative;
     /* height: fit-content; */
@@ -78,7 +78,7 @@
     padding: 15px;
     background-color: white;
     border-radius: 4px;
-
+    margin: auto;
 }
 
 .about-details p {
@@ -86,4 +86,20 @@
     white-space: pre-wrap;
     font-size: 14px;
     line-height: 135%;
+    /* height: 100%; */
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 1130px) {
+    #about-card {
+        display: flex;
+        flex-direction: column;
+        /* order: 2; */
+        /* justify-content: right; */
+        height: 100%;
+        ;
+        width: 100%;
+        margin-top: -45px;
+    }
+
 }

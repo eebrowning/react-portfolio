@@ -659,7 +659,7 @@ br.clear {
 	padding-top: 100px;
 }
 
-@media screen and (max-width: 1680px) {
+screen and (max-width: 1680px) {
 
 	.row {
 		display: flex;
