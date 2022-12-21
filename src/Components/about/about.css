@@ -95,15 +95,26 @@
         display: flex;
         flex-direction: column;
         /* order: 2; */
-        /* justify-content: right; */
+        justify-content: space-evenly;
         height: 100%;
-        ;
         width: 100%;
         margin-top: -45px;
     }
 
     .about-details {
         width: 90%;
+        margin-bottom: 60px;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: -3px 3px 3px rgb(206, 203, 203);
+        border: 1px solid whitesmoke;
+        position: relative;
+        margin-left: 25px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 4px;
+        margin: auto; */
     }
 
 }

@@ -3,7 +3,7 @@
     margin: auto;
     height: 30rem;
     margin-top: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
 }
@@ -51,4 +51,61 @@ textarea {
     display: flex;
     justify-content: left;
     margin: 0;
+}
+
+@media screen and (max-width: 1130px) {
+
+    #contact-outer {
+        width: 90%;
+        margin: auto;
+        height: 30rem;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fields {
+        width: 75%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+        height: 20rem;
+    }
+
+    .name,
+    .email {
+        width: 50%;
+    }
+
+    .message {
+        width: 80%;
+        height: 60%;
+    }
+
+    textarea {
+        width: 90%;
+        height: 100%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    #contact-outer {}
+
+    .fields {}
+
+    .name,
+    .email {}
+
+    .message {}
+
+    textarea {}
+
 }
