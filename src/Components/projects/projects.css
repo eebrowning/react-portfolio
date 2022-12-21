@@ -187,12 +187,10 @@
         flex-direction: row;
         justify-content: space-evenly;
         width: 22rem;
-        /* height: 35rem; */
         height: 100%;
         overflow-wrap: break-word;
         white-space: pre-wrap;
         align-items: center;
-        /* border: 1px solid red; */
     }
 
     .info {
