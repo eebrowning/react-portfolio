@@ -114,8 +114,6 @@
     color: black;
     width: 20rem;
     height: 25rem;
-
-
 }
 
 .info h2 {
@@ -172,14 +170,14 @@
 
 
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 750px) {
     #projects-box-outer {
         display: flex;
         flex-direction: column;
         /* order: 2; */
         /* justify-content: right; */
         height: 100%;
-        ;
+
         width: 100%;
         margin-top: -45px;
     }
@@ -195,8 +193,15 @@
         white-space: pre-wrap;
         align-items: center;
         /* border: 1px solid red; */
-
-
     }
+
+    .info {
+        border-radius: 4px;
+        background-color: whitesmoke;
+        color: black;
+        width: 20rem;
+        height: 40rem;
+    }
+
 
 }

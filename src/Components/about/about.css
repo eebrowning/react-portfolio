@@ -90,7 +90,7 @@
     overflow-y: scroll;
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 750px) {
     #about-card {
         display: flex;
         flex-direction: column;
@@ -104,17 +104,7 @@
     .about-details {
         width: 90%;
         margin-bottom: 60px;
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        box-shadow: -3px 3px 3px rgb(206, 203, 203);
-        border: 1px solid whitesmoke;
-        position: relative;
-        margin-left: 25px;
-        padding: 15px;
-        background-color: white;
-        border-radius: 4px;
-        margin: auto; */
+
     }
 
 }
