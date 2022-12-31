@@ -102,7 +102,7 @@ const Projects = () => {
                                 </div>
                             </div>
 
-                            {/* <div class="project-card">
+                            <div class="project-card">
                                 <div>
                                     <h2>TableOpen</h2>
                                     <a href="https://github.com/jxyin0513/OpenTable_Master" class="image fit"><img
@@ -131,7 +131,7 @@ const Projects = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div class="project-card">
+                            {/* <div class="project-card">
                                 <div>
                                     <h2>Moetaku</h2>
                                     <a href="https://moetaku.herokuapp.com/" class="image fit"><img
