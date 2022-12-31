@@ -105,7 +105,7 @@ const Projects = () => {
                             <div class="project-card">
                                 <div>
                                     <h2>TableOpen</h2>
-                                    <a href="https://github.com/jxyin0513/OpenTable_Master" class="image fit"><img
+                                    <a href="https://opentableproject.herokuapp.com/" class="image fit"><img
                                         src="https://pipcamp.s3.amazonaws.com/9b171670c45643d0a5c6ed5319cb1011.png"
                                         alt="" /></a>
                                 </div>
