@@ -55,9 +55,9 @@ textarea {
     margin: 0;
 }
 
-.button {
+.actions .button {
     border-radius: 1rem;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 
