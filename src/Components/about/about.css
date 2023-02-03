@@ -88,6 +88,7 @@
     line-height: 135%;
     /* height: 100%; */
     overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 @media screen and (max-width: 750px) {
