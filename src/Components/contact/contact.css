@@ -8,7 +8,7 @@
     border: 1px solid whitesmoke;
 
     box-shadow: -3px 3px 3px rgb(206, 203, 203);
-
+    background-color: white;
     border-radius: 4px;
     display: flex;
     flex-direction: column;

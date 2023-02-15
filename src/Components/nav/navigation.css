@@ -10,9 +10,20 @@ nav {
 
 a {
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 1px rgb(209, 207, 207); */
+    text-shadow: .05rem .05rem .05rem black;
+
 }
 
 a:visited {
-    color: orangered;
+    /* color: orangered; */
+    color: white;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 1px rgb(209, 207, 207); */
+    text-shadow: .05rem .05rem .05rem black;
+
+
     text-decoration: none;
 }
