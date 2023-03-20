@@ -8,7 +8,7 @@ const Projects = () => {
 
     useEffect(() => {
         setCarouselWidth(document.getElementById("card")?.clientWidth)
-        console.log('width changed')
+        // console.log('width changed')
 
     })
 
@@ -43,7 +43,27 @@ const Projects = () => {
                 <div id="projects-box-inner">
                     <div id="projects-display">
                         <div id="projects" >
+                            <div class="project-card">
+                                <div>
+                                    <h2>DA: Tarot</h2>
+                                    <a href="http://ec2-52-53-252-167.us-west-1.compute.amazonaws.com/" class="image fit"><img
+                                        src="https://i.imgur.com/ITtWNrP.png"
+                                        alt="" /></a>
+                                </div>
+                                <div class="info">
+                                    <h2>A Challenge to reproduce the aesthetic of Dragon Age: Inquisition's character creation menu</h2>
 
+                                    <p>
+                                        Utizilation of react packages for seamless image cropping and custom scrollbars
+                                    </p>
+                                    <p>
+                                        Backend constructed in Express uses RESTful standards for endpoints, AWS S3 bucket incorporation for images
+                                    </p>
+                                    <p>
+                                        Various custom carousels and card animations to give the user a sense of immersion
+                                    </p>
+                                </div>
+                            </div>
                             <div id='card' class="project-card">
                                 <div>
                                     <h2>PipCamp</h2>
