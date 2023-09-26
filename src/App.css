@@ -1,5 +1,14 @@
+/* 
+    Use colors;
+    ["#BAC7D5","#6D88B1","#5D687F","#5B79A0","#718BB1"]
+*/
+
 .App {
-  background-color: rgb(231, 230, 230);
+  /* background-color: rgb(231, 230, 230);
+   */
+  /* background: linear-gradient(45deg, #BAC7D5, #6D88B1, #5D687F, #5B79A0, #718BB1); */
+  background: linear-gradient(10deg, #6D88B1, #5D687F, #5B79A0, #718BB1, #85a6c6);
+
 }
 
 .App-logo {

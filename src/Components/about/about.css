@@ -1,3 +1,8 @@
+/* 
+    Use colors;
+    ["#BAC7D5","#6D88B1","#5D687F","#5B79A0","#718BB1"]
+*/
+
 #about {
     /* display: flex; */
 
@@ -9,50 +14,72 @@
     height: 25rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: flex-end;
+    align-items: baseline;
     /* object-fit: contain; */
-    background-image: url("https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg");
+    background-image: url("../../../public/colorado.png");
     background-size: cover;
-    background-position: -15px;
+    background-position: 0px;
+    background-repeat: no-repeat;
 
 }
 
 
-#about-header h1 {
+/* #about-header h1 {
     font-size: 80px;
     font-weight: 900;
     color: white;
     text-shadow: 1px 1px 1px rgb(209, 207, 207);
     margin: 0;
 
+} */
+
+#about-header p,
+#name {
+    font-size: 26px;
+    font-weight: 900;
+    /* color: rgb(143, 6, 63); */
+    color: #BAC7D5;
+    /* text-shadow: 1px 1px 1px rgb(209, 207, 207); */
+    text-shadow: 2px 2px 2px #5D687F;
+    margin: 0;
+    /* text-align: center; */
 }
 
-#about-header p {
-    font-size: 30px;
-    font-weight: 900;
-    color: rgb(143, 6, 63);
-    text-shadow: 1px 1px 1px rgb(209, 207, 207);
-    margin: 0;
-    text-align: center;
+#name {
+    font-size: 36px;
+
+    text-decoration: none;
+    /* color: white; */
+    color: #BAC7D5;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 1px rgb(209, 207, 207); */
+    text-shadow: .05rem .05rem .05rem black;
 }
 
 
 
 #about-card {
     display: flex;
-
     /* order: 2; */
     /* justify-content: right; */
     width: 100%;
     margin-top: -45px;
+    /* background: linear-gradient(90deg, #BAC7D5, #6D88B1, #5D687F, #5B79A0, #718BB1); */
+
 }
 
 #header-left {
-    height: 15rem;
+    /* height: 15rem; */
+    position: relative;
+    top: 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+
 }
 
 .image.featured {
