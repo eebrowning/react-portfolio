@@ -21,7 +21,7 @@ function App() {
       </head>
       <body>
 
-        <Navigation />
+        {/* <Navigation /> */}
         <About />
         <div class='side-by-side'>
         </div>

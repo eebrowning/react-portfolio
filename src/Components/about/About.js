@@ -10,8 +10,27 @@ const About = () => {
                 <header id="about-header">
                     <div id='header-left'>
                         <h1 id='name'>Ethan Browning</h1>
+                        <p>
+                            Full Stack Web Dev
+                        </p>
 
-                        <p>Full-Stack Software Developer</p>
+
+                    </div>
+                    <div id='header-right'>
+                        <p>
+                            Hello!
+                            My name is Ethan Browning, and I am a Fullstack Software Engineer.
+                        </p>
+                        <p>
+                            I have developed several applications using PERN / MERN stack technology, exhibiting my ability to use various technologies to deliver a complete web application.From backend route and API development to authentication, and from validations to attractive frontend components, I am comfortable building and maintaining every aspect of a project.
+                        </p>
+                        <p>
+                            I am also a seasoned specialty coffee veteran! I spent a decade working in coffee between being a barista and a repair technician for commercial coffee gear.
+                        </p>
+                        <p>
+                            This comes with a lot of teamwork, customer service, and experience with a variety of client-facing roles.
+                        </p>
+
                     </div>
                 </header>
 
