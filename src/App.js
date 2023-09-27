@@ -12,26 +12,19 @@ import Resume from './Components/resume/Resume';
 function App() {
   return (
     <div className="App">
-      <head>
-        <title>Ethan Browning</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      {/* <body> */}
 
-        {/* <link rel="stylesheet" href="assets/css/main.css" /> */}
-      </head>
-      <body>
+      {/* <Navigation /> */}
+      <About />
+      <div className='side-by-side'>
+      </div>
+      {/* <Projects /> */}
+      <Skills />
+      <Resume />
+      <Contact />
+      <Footer />
 
-        {/* <Navigation /> */}
-        <About />
-        <div class='side-by-side'>
-        </div>
-        {/* <Projects /> */}
-        <Skills />
-        <Resume />
-        <Contact />
-        <Footer />
-
-      </body>
+      {/* </body> */}
     </div>
   );
 }

@@ -62,26 +62,12 @@ export default function moveToSelected(direction) {
     }
 
 
-    // if (!prev) document.getElementById('prev').style.opacity = '0';
-    // else if (prev) document.getElementById('prev').style.opacity = '1';
 
-    // if (!next) document.getElementById('next').style.opacity = '0';
-    // else if (next) document.getElementById('next').style.opacity = '1';
 
-    // console.log(document.querySelector('.prev-3'), 'preeeeev three');
+    // if (!prev && document.querySelector('.prev-3')) document.querySelector('.prev-3').style.opacity = '0';
+    // else if (prev && document.querySelector('.prev-3')) document.querySelector('.prev-3').style.opacity = '1';
 
-    if (!prev && document.querySelector('.prev-3')) document.querySelector('.prev-3').style.opacity = '0';
-    else if (prev && document.querySelector('.prev-3')) document.querySelector('.prev-3').style.opacity = '1';
 
-    // if (!next) {
-    //     console.log(document.getElementsByClassName('next-3')[0], 'NOTHING NEXT', next);
-    //     document.getElementsByClassName('next-3')[0].style.opacity = '0'
-    // }
-    // else if (next) {
-    //     console.log(document.querySelector('.next-3').style.opacity, 'NEXT', next);
-    //     document.querySelector('.next-3').style.opacity = '0'
-    // }
-
-    if (!next && document.querySelector('.next-3')) document.querySelector('.next-3').style.opacity = '0';
-    else if (next && document.querySelector('.next-3')) document.querySelector('.next-3').style.opacity = '1';
+    // if (!next && document.querySelector('.next-3')) document.querySelector('.next-3').style.opacity = '0';
+    // else if (next && document.querySelector('.next-3')) document.querySelector('.next-3').style.opacity = '1';
 }
