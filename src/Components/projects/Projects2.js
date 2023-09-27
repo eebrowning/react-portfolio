@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import moveToSelected from "../../Utils/moveToSelected";
 import "./carousel.css"
 import projects from "../../Utils/projects";
+import * as THREE from 'three';
 
 const Projects2 = () => {
     //these are the labels that represent position in shuffle of project cards
