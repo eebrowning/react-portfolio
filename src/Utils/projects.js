@@ -8,8 +8,8 @@ export default [
             "Utilization of React packages for seamless image cropping and custom scrollbars.",
             "Backend constructed in Express uses RESTful standards for endpoints, AWS S3 bucket incorporation for images.",
             "Various custom carousels and card animations to give the user a sense of immersion."
-        ]
-
+        ],
+        "tech": ["Express.js", "AWS EC2", "AWS S3", "React.js", "Passport"]
     },
     {
         "name": "PipCamp",
@@ -22,7 +22,8 @@ export default [
             "PostgreSQL database size reduced by condensing 23 fields into an object with 8 columns for Locations: storage handled with SQLAlchemy and provided to the frontend via Redux.",
             "React Components facilitate dynamic addition of features and styling.",
             "The result is a smooth, functional web application that is also easy to use and understand for a casual user."
-        ]
+        ],
+        "tech": ["Flask.py", "Heroku", "AWS S3", "React.js", "OAuth"]
     },
     {
         "name": "CCDB",
@@ -33,7 +34,8 @@ export default [
             "Showcases ability to fetch and use JSON data to render an interactive front-end",
             "Utilized prop-passing to keep functional components separate while allowing them to communicate to each other, like the search and filter, which work together to search the results of the current filter.",
             "Carousel traversable via scroll or button, will scroll past all but the last movie poster in-view for ease-of-use."
-        ]
+        ],
+        "tech": ["React.js"]
 
     },
     {
@@ -45,7 +47,9 @@ export default [
             "A team-effort showcasing the production of a two CRUD feature application: each of us having a hand in creating API routes, database models, frontend forms and the shaping of the state via the Redux store.",
             "Backend and Frontend components were constructed in 2.5 days, all styling achieved in 1.5 days.",
             "Provided a refined UX/UI while under time constraints: We ensured any interactive element was unquestionably interactive while being pleasing to look at."
-        ]
+        ],
+        "tech": ["Flask.py", "Heroku", "AWS S3", "React.js", "OAuth"]
+
     },
     {
         "name": "Bark!",
@@ -57,7 +61,9 @@ export default [
             "Express backend uses Sequelize RDBMS to store and serve information, while the React frontend uses Redux store to manage State to keep information available at critical points.",
             "Simple fetch requests filtered for desired search results.",
             "The site demonstrates shaping and management of state to provide a smooth user experience."
-        ]
+        ],
+        "tech": ["Express.js", "AWS EC2", "AWS S3", "React.js", "Oauth"]
+
     }
 
 ]

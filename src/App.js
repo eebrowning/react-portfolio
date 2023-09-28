@@ -1,12 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Projects from './Components/projects/Projects';
 import Footer from './Components/footer/Footer';
 import Contact from './Components/contact/Contact';
 import Skills from './Components/skills/Skills';
 import About from './Components/about/About';
 import Navigation from './Components/nav/Navigation';
-import Resume from './Components/resume/Resume';
 
 
 function App() {
@@ -15,13 +13,13 @@ function App() {
       {/* <body> */}
 
       {/* <Navigation /> */}
+
       <About />
+      {/* <Resume /> */}
       <div className='side-by-side'>
       </div>
-      {/* <Projects /> */}
-      <Skills />
-      <Resume />
-      <Contact />
+      {/* <Skills /> */}
+      {/* <Contact /> */}
       <Footer />
 
       {/* </body> */}

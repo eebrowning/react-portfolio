@@ -35,14 +35,12 @@ const Projects2 = () => {
         <label htmlFor="projects" className="" style={{ display: 'block' }}>
 
             <div name='projects-select' id='projects-select'>
-                <div className='arrow-spacer'>
-                    <img alt="previous-option arrow" className={'white-arrow prev-3'} onClick={handleClickLeft} id="prev" src='https://i.imgur.com/oTediJN.png' />
-                    <img alt="next-option arrow" className={'white-arrow next-3'} onClick={handleClickRight} id="next" src='https://i.imgur.com/UpFYkCd.png' />
-                </div>
+
                 <div id="projects" >
                     <div>
                         {projects.map(project => (
                             <>
+                                {/* need to add this functionality: if card not .selected, when clicked, bring to front as .selected */}
                                 <div className="project-card">
                                     <div className="project-display">
                                         <h2>{project["name"]}</h2>
@@ -61,6 +59,10 @@ const Projects2 = () => {
 
                         ))}
                     </div>
+                </div>
+                <div className='arrow-spacer'>
+                    <img alt="previous-option arrow" className={'white-arrow prev-3'} onClick={handleClickLeft} id="prev" src='https://i.imgur.com/oTediJN.png' />
+                    <img alt="next-option arrow" className={'white-arrow next-3'} onClick={handleClickRight} id="next" src='https://i.imgur.com/UpFYkCd.png' />
                 </div>
             </div>
 

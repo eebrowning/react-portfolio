@@ -17,6 +17,9 @@
     background-color: white;
     font-weight: 600;
     margin-bottom: 20px;
+    position: absolute;
+    left: 2rem;
+    top: 10rem;
 }
 
 #resume-button:hover {

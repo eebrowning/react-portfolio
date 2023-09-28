@@ -7,10 +7,10 @@
     height: 35rem;
     box-shadow: -3px 3px 3px rgb(206, 203, 203);
     width: 50%;
-    border: 1px solid whitesmoke;
+    /* border: 1px solid whitesmoke; */
     border-radius: 4px;
     margin: auto;
-    background-color: white;
+    /* background-color: white; */
     ;
 }
 
@@ -75,11 +75,19 @@
     /* transition: all 250ms linear; */
     padding-left: 5px;
     width: 100%;
+    /* background-color: rgba(0, 0, 0, .3); */
+    /* border: 1px solid red; */
+    position: relative;
+
+
+
+
 }
 
 #projects {
     object-fit: cover;
     display: flex;
+
     /* justify-content: space-evenly; */
     /* width: 100%; */
     height: 100%;
@@ -88,10 +96,9 @@
 
 
 .project-card {
-    /* background-color: grey; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
-    left: -15rem;
+    left: -6.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,7 +111,6 @@
 
 .project-display {
     background-color: black;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,23 +132,21 @@
 
 .info {
     border-radius: 4px;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     color: black;
-
-    /* position: absolute;
-    top: 17rem;
-    left: -6rem; */
-
-    width: 30rem;
-    height: 13rem;
+    position: absolute;
+    /* top: 0rem; */
+    left: 200%;
+    width: 25rem;
+    height: 20rem;
     display: none;
-    overflow: scroll;
+    overflow-y: scroll;
+
 }
 
 .selected>.info {
     display: block;
     /* width: 40rem; */
-
 }
 
 .info h2 {
@@ -156,6 +160,11 @@
     /* text-indent: -10px; */
 }
 
+.arrow-spacer {
+    position: relative;
+    top: -10rem;
+    z-index: 15;
+}
 
 #left-arrow {
     left: 24px;
