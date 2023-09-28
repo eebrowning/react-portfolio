@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import moveToSelected from "../../Utils/moveToSelected";
 import "./carousel.css"
+import "./projects.css"
 import projects from "../../Utils/projects";
 import * as THREE from 'three';
 
@@ -41,20 +42,23 @@ const Projects2 = () => {
                 <div id="projects" >
                     <div>
                         {projects.map(project => (
-                            <div className="project-card">
-                                <div>
-                                    <h2>{project["name"]}</h2>
-                                    <a href={project["link"]} className="image fit"><img
-                                        src={project["image"]}
-                                        alt="" /></a>
+                            <>
+                                <div className="project-card">
+                                    <div className="project-display">
+                                        <h2>{project["name"]}</h2>
+                                        <a href={project["link"]} className="image fit"><img
+                                            src={project["image"]}
+                                            alt="" /></a>
+                                    </div>
+                                    <div className="info">
+                                        <h2>{project['title']}</h2>
+                                        {project['info'].map(bullet => (
+                                            <p>{bullet}</p>
+                                        ))}
+                                    </div>
                                 </div>
-                                <div className="info">
-                                    <h2>{project['title']}</h2>
-                                    {project['info'].map(bullet => (
-                                        <p>{bullet}</p>
-                                    ))}
-                                </div>
-                            </div>
+                            </>
+
                         ))}
                     </div>
                 </div>

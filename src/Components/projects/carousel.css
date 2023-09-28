@@ -7,7 +7,7 @@
 
 
 #projects-select {
-    width: 75vw;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,20 +27,21 @@
     height: 30rem;
     margin: auto;
     border: 1px solid chartreuse;
+
     position: relative;
-    left: -15%
+    /* left: -15% */
 }
 
-#projects>div {
-    /* todo THIS IS THE PART*/
+/* todo THIS IS THE PART */
+/* #projects>div {
     position: absolute;
-    /* transition: transform 1s, left 1s, opacity 1s, z-index 0s; */
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
     opacity: 1;
     display: flex;
     height: 30rem;
-    /* overflow: hidden; */
+    overflow: hidden;
 
-}
+} */
 
 
 
@@ -52,7 +53,7 @@
     position: absolute;
     scale: 55%;
 
-    transform: translateY(0%) translateX(-150%);
+    transform: translateY(0%) translateX(-100%);
 }
 
 #projects div.prevLeftSecond {
@@ -61,15 +62,15 @@
     position: absolute;
     scale: 70%;
 
-    transform: translateY(0%) translateX(-100%);
+    transform: translateY(0%) translateX(-50%);
 }
 
 #projects div.prev {
     z-index: 5;
     position: absolute;
     scale: 85%;
-    left: -40%;
-    transform: translateY(0%) translateX(-50%);
+    /* left: -40%; */
+    transform: translateY(0%) translateX(-0%);
 
 }
 
@@ -87,28 +88,22 @@
     /* left: 60%; */
     position: absolute;
     scale: 85%;
-
-    transform: translateY(0%) translateX(50%);
+    transform: translateY(0%) translateX(150%);
 }
 
 
 #projects div.nextRightSecond {
     z-index: 5;
-    /* left: 68%; */
     position: absolute;
     scale: 70%;
-
-    transform: translateY(0%) translateX(100%);
-
-    /* opacity: 0.7; */
+    transform: translateY(0%) translateX(233%);
 }
 
 #projects div.hideRight {
     /* opacity: 0; */
     position: absolute;
     scale: 55%;
-
-    transform: translateY(0%) translateX(150%);
+    transform: translateY(0%) translateX(330%);
 
 }
 
