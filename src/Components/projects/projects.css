@@ -141,14 +141,14 @@
     color: black;
     position: absolute;
 
-    top: -3.5rem;
+    top: -3rem;
     right: -300%;
     width: 25rem;
-    height: 30rem;
+    height: 33rem;
     display: none;
     /* overflow-y: scroll; */
     z-index: 1;
-    border: 1px solid chartreuse;
+    /* border: 1px solid chartreuse; */
 }
 
 .selected>.info {

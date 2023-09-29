@@ -48,8 +48,8 @@
 #name {
     font-size: 36px;
     text-decoration: none;
-    /* color: white; */
-    color: #718BB1;
+    color: white;
+    /* color: #718BB1; */
     font-weight: bold;
     text-shadow: .05rem .05rem .05rem black;
 }
