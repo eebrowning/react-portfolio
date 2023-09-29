@@ -1,16 +1,5 @@
 export default [
-    {
-        "name": "DA: Tarot",
-        "image": "https://i.imgur.com/ITtWNrP.png",
-        "link": "http://ec2-52-53-252-167.us-west-1.compute.amazonaws.com/",
-        "title": "A Challenge to reproduce the aesthetic of Dragon Age: Inquisition's character creation menu",
-        "info": [
-            "Utilization of React packages for seamless image cropping and custom scrollbars.",
-            "Backend constructed in Express uses RESTful standards for endpoints, AWS S3 bucket incorporation for images.",
-            "Various custom carousels and card animations to give the user a sense of immersion."
-        ],
-        "tech": ["Express.js", "AWS EC2", "AWS S3", "React.js", "Passport"]
-    },
+
     {
         "name": "PipCamp",
         "image": "https://user-images.githubusercontent.com/51832487/184191666-eef5ad5d-53fb-476d-a1d9-565f433633f5.png",
@@ -24,6 +13,18 @@ export default [
             "The result is a smooth, functional web application that is also easy to use and understand for a casual user."
         ],
         "tech": ["Flask.py", "Heroku", "AWS S3", "React.js", "OAuth"]
+    },
+    {
+        "name": "DA: Tarot",
+        "image": "https://i.imgur.com/ITtWNrP.png",
+        "link": "http://ec2-52-53-252-167.us-west-1.compute.amazonaws.com/",
+        "title": "A Challenge to reproduce the aesthetic of Dragon Age: Inquisition's character creation menu",
+        "info": [
+            "Utilization of React packages for seamless image cropping and custom scrollbars.",
+            "Backend constructed in Express uses RESTful standards for endpoints, AWS S3 bucket incorporation for images.",
+            "Various custom carousels and card animations to give the user a sense of immersion."
+        ],
+        "tech": ["Express.js", "AWS EC2", "AWS S3", "React.js", "Passport"]
     },
     {
         "name": "CCDB",

@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -23,16 +23,11 @@
 #projects {
     display: flex;
     flex-direction: column;
-    /* overflow: hidden; */
-    /* width: 0rem; */
-    /* max-width: 100vw !important; */
     height: 30rem;
     margin: auto;
     /* center line, chart */
     /* border: 1px solid chartreuse; */
-
     position: relative;
-    /* left: -15% */
 
 }
 
@@ -41,6 +36,7 @@
     position: absolute;
     display: flex;
     height: 30rem;
+    perspective: 800rem;
 }
 
 
@@ -51,62 +47,80 @@
     /* left: 10%; */
     /* opacity: 0; */
     position: absolute;
-    scale: 55%;
-
-    transform: translateY(0%) translateX(-190%);
+    transform: translateY(0%) translateX(-190%) translateZ(-600rem);
+    transition: transform 0.2s;
+    pointer-events: none;
 }
 
 #projects div.prevLeftSecond {
     z-index: 4;
     /* left: 35%; */
     position: absolute;
-    scale: 70%;
-
-    transform: translateY(0%) translateX(-120%);
+    transform: translateY(0%) translateX(-120%) translateZ(-400rem);
+    transition: transform 0.2s;
+    pointer-events: none;
 }
 
 #projects div.prev {
     z-index: 5;
     position: absolute;
-    scale: 85%;
-    /* left: -40%; */
-    transform: translateY(0%) translateX(-50%);
+    transform: translateY(0%) translateX(-50%) translateZ(-200rem);
+    transition: transform 0.2s;
+    pointer-events: none;
 
 }
 
 #projects div.selected {
     z-index: 10;
     position: absolute;
-    scale: 100%;
-    /* left: 0; */
-    transform: translateY(0%) translateX(0%);
-    /* transition: rotate 1s, transform 1s, left 1.2s, z-index 0s; */
+
 }
 
+#projects div.selected .project-display {
+    transform: translateY(0%) translateX(0%) translateZ(0);
+
+    transition: transform 0.2s;
+}
+
+/* #projects div.selected>.project-display {
+    z-index: 10;
+    transition: .2s;
+} */
+
 #projects div.next {
-    z-index: 6;
+    z-index: 5;
     /* left: 60%; */
     position: absolute;
-    scale: 85%;
-    transform: translateY(0%) translateX(50%);
+    transform: translateY(0%) translateX(50%) translateZ(-200rem);
+    transition: transform 0.2s;
+    pointer-events: none;
+
 }
 
 
 #projects div.nextRightSecond {
-    z-index: 5;
+    z-index: 4;
     position: absolute;
-    scale: 70%;
-    transform: translateY(0%) translateX(120%);
+    transform: translateY(0%) translateX(120%) translateZ(-400rem);
+    transition: transform 0.2s;
+    pointer-events: none;
+
 }
 
 #projects div.hideRight {
+    z-index: 1;
     /* opacity: 0; */
     position: absolute;
-    scale: 55%;
-    transform: translateY(0%) translateX(190%);
+    transform: translateY(0%) translateX(190%) translateZ(-600rem);
+    transition: transform 0.2s;
+    pointer-events: none;
 
 }
 
+
+.trueHide {
+    display: none;
+}
 
 
 /* 

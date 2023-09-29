@@ -79,9 +79,6 @@
     /* border: 1px solid red; */
     position: relative;
 
-
-
-
 }
 
 #projects {
@@ -96,24 +93,32 @@
 
 
 .project-card {
-    /* border: 1px solid red; */
+    border-radius: 2%;
     position: absolute;
     left: -6.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: fit-content;
-    height: 100%;
+    /* height: 100%; */
+    height: fit-content;
+
     white-space: pre-wrap;
     align-items: center;
     /* overflow: scroll; */
+
 }
 
 .project-display {
     background-color: black;
+    border-radius: 2%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
+
+
 }
 
 .project-display>h2 {
@@ -135,13 +140,15 @@
     /* background-color: whitesmoke; */
     color: black;
     position: absolute;
-    /* top: 0rem; */
-    left: 200%;
-    width: 25rem;
-    height: 20rem;
-    display: none;
-    overflow-y: scroll;
 
+    top: -3.5rem;
+    right: -300%;
+    width: 25rem;
+    height: 30rem;
+    display: none;
+    /* overflow-y: scroll; */
+    z-index: 1;
+    border: 1px solid chartreuse;
 }
 
 .selected>.info {
@@ -162,33 +169,10 @@
 
 .arrow-spacer {
     position: relative;
-    top: -10rem;
+    /* top: -10rem; */
     z-index: 15;
 }
 
-#left-arrow {
-    left: 24px;
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 48px;
-    height: 48px;
-
-}
-
-
-
-#right-arrow {
-    right: 24px;
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 48px;
-    height: 48px;
-
-}
 
 .grey-arrow {
     opacity: 30%;
