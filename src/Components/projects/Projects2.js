@@ -7,7 +7,7 @@ import * as THREE from 'three';
 
 const Projects2 = () => {
     //these are the labels that represent position in shuffle of project cards
-    const carouselLabels = ["selected", 'next', 'nextRightSecond', 'hideRight'];
+    const carouselLabels = ["selected", 'next', 'nextRightSecond', 'hideRight', 'hideRight'];
     useEffect(() => {
         handleLabels();
         console.log(projects, 'arrrrs')

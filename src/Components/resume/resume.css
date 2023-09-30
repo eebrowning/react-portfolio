@@ -44,3 +44,18 @@
     width: 42rem;
     margin: auto;
 }
+
+
+
+@media screen and (max-width: 750px) {
+    /* #resume-toggle {
+        max-width: fit-content;
+    } */
+
+    #resume-button {
+        /* position: absolute; */
+        top: 2rem;
+        left: 50vw;
+        max-width: 40vw;
+    }
+}

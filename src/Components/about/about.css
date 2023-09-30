@@ -34,7 +34,7 @@
 
 #about-header,
 #name {
-    font-size: 26px;
+    font-size: 1.5rem;
     font-weight: 900;
     /* color: rgb(143, 6, 63); */
     color: #BAC7D5;
@@ -46,12 +46,13 @@
 }
 
 #name {
-    font-size: 36px;
+    font-size: 2rem;
     text-decoration: none;
     color: white;
     /* color: #718BB1; */
     font-weight: bold;
     text-shadow: .05rem .05rem .05rem black;
+    max-width: 50vw;
 }
 
 
@@ -139,12 +140,24 @@
         height: 100%;
         width: 100%;
         margin-top: -45px;
+
     }
+
+    #about-header {
+        flex-direction: column;
+    }
+
+    #header-right {
+        position: relative;
+        left: 1rem;
+        max-width: 100%;
+        width: 90vw;
+    }
+
 
     .about-details {
         width: 90%;
         margin-bottom: 60px;
-
     }
 
 }
