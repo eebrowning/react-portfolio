@@ -30,7 +30,7 @@ const About = () => {
                             <br />
                             This is called from within embedded Javascript, HTML and CSS on Squarespace.
                         </p>
-
+                        <p>Check out some of my past projects below in my custom card carousel below!</p>
 
                     </div>
                 </header>

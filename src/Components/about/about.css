@@ -33,7 +33,8 @@
 } */
 
 #about-header,
-#name {
+#name,
+.info {
     font-size: 1.5rem;
     font-weight: 900;
     /* color: rgb(143, 6, 63); */

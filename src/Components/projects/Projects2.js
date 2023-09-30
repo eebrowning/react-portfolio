@@ -13,6 +13,27 @@ const Projects2 = () => {
         console.log(projects, 'arrrrs')
     }, [])
 
+
+
+    useEffect(() => {
+
+        if (document.querySelector('.prev-3')) {
+            document.querySelector('.prev-3').addEventListener("mousedown", () => document.querySelector('.prev-3').classList.add('click'))
+            document.querySelector('.prev-3').addEventListener("mouseup", () => document.querySelector('.prev-3').classList.remove('click'))
+            document.querySelector('.next-3').addEventListener("mousedown", () => document.querySelector('.next-3').classList.add('click'))
+            document.querySelector('.next-3').addEventListener("mouseup", () => document.querySelector('.next-3').classList.remove('click'))
+        } else if (document.querySelector('.prev-3')) {
+            document.querySelector('.prev-3').removeEventListener("mousedown", () => document.querySelector('.prev-3').classList.add('click'))
+            document.querySelector('.prev-3').removeEventListener("mouseup", () => document.querySelector('.prev-3').classList.remove('click'))
+            document.querySelector('.next-3').removeEventListener("mousedown", () => document.querySelector('.next-3').classList.add('click'))
+            document.querySelector('.next-3').removeEventListener("mouseup", () => document.querySelector('.next-3').classList.remove('click'))
+        }
+
+    }, [])
+
+
+
+
     let handleLabels = () => {
         for (let i = 0; i < carouselLabels.length; i++) {
             document.getElementsByClassName('project-card')[i]?.classList.remove('hideRight')
