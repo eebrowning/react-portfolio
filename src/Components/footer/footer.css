@@ -7,17 +7,20 @@
 
 .icon.fa {
     font-weight: 400;
-
 }
 
 ul.icons {
+    position: fixed;
+    bottom: 0;
     display: flex;
-    width: 100%;
-    border: 1px solid powderblue;
-    height: 3rem;
+    flex-direction: column;
+    width: 2rem;
+    height: 15rem;
+    border: 1px solid #718BB1;
+    background-color: rgba(0, 0, 0, .2);
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
     padding: 0;
-
+    z-index: 100;
 }

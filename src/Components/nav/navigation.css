@@ -1,3 +1,8 @@
+/* 
+    Use colors;
+    ["#BAC7D5","#6D88B1","#5D687F","#5B79A0","#718BB1"]
+*/
+
 nav {
     border: 1px solid powderblue;
     list-style: none;
@@ -6,11 +11,17 @@ nav {
     justify-content: space-evenly;
     height: 3rem;
     align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
 }
+
+
 
 a {
     text-decoration: none;
-    color: white;
+    /* color: #BAC7D5; */
+    color: #718BB1;
     font-weight: bold;
     /* text-shadow: 1px 1px 1px rgb(209, 207, 207); */
     text-shadow: .05rem .05rem .05rem black;
@@ -19,11 +30,10 @@ a {
 
 a:visited {
     /* color: orangered; */
-    color: white;
+    color: #BAC7D5;
+
     font-weight: bold;
     /* text-shadow: 1px 1px 1px rgb(209, 207, 207); */
     text-shadow: .05rem .05rem .05rem black;
-
-
     text-decoration: none;
 }

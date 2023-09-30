@@ -60,8 +60,8 @@ const Skills = () => {
 
             <div className="skills-details" >
 
-                <img class='stats' src="https://github-readme-stats.vercel.app/api?username=eebrowning&count_private=true&show_icons=true" />
-                <img class='stats' src="https://github-readme-stats.vercel.app/api/top-langs/?username=eebrowning" />
+                <img className='stats' src="https://github-readme-stats.vercel.app/api?username=eebrowning&count_private=true&show_icons=true" />
+                <img className='stats' src="https://github-readme-stats.vercel.app/api/top-langs/?username=eebrowning" />
 
 
             </div>

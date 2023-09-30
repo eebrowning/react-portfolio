@@ -17,6 +17,9 @@
     background-color: white;
     font-weight: 600;
     margin-bottom: 20px;
+    position: absolute;
+    left: 2rem;
+    top: 10rem;
 }
 
 #resume-button:hover {
@@ -40,4 +43,20 @@
     height: 35rem;
     width: 42rem;
     margin: auto;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    /* #resume-toggle {
+        max-width: fit-content;
+    } */
+
+    #resume-button {
+        /* position: absolute; */
+        top: 2rem;
+        left: 50vw;
+        max-width: 40vw;
+        z-index: 15;
+    }
 }

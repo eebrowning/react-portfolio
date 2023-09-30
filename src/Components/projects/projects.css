@@ -7,10 +7,10 @@
     height: 35rem;
     box-shadow: -3px 3px 3px rgb(206, 203, 203);
     width: 50%;
-    border: 1px solid whitesmoke;
+    /* border: 1px solid whitesmoke; */
     border-radius: 4px;
     margin: auto;
-    background-color: white;
+    /* background-color: white; */
     ;
 }
 
@@ -67,53 +67,93 @@
     display: none;
 }
 
-#projects-display {
+#projects-gallery {
     /* width: 100%; */
     height: 100%;
     display: flex;
-    transition: all 250ms linear;
+    justify-content: center;
+    /* transition: all 250ms linear; */
     padding-left: 5px;
-
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, .3); */
+    /* border: 1px solid red; */
+    position: relative;
 
 }
 
 #projects {
     object-fit: cover;
     display: flex;
+
     /* justify-content: space-evenly; */
     /* width: 100%; */
     height: 100%;
 }
 
 
+
 .project-card {
+    border-radius: 2%;
+    position: absolute;
+    left: -6.5rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 35rem;
-    /* height: 35rem; */
-    height: 100%;
-    overflow-wrap: break-word;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    /* height: 100%; */
+    height: fit-content;
+
     white-space: pre-wrap;
     align-items: center;
-    /* border: 1px solid red; */
+    /* overflow: scroll; */
+
+}
+
+.project-display {
+    background-color: black;
+    border-radius: 2%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
 
 
 }
 
+.project-display>h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
 .project-card img {
-    /* height: 15rem; */
-    width: 10rem;
+    height: 15rem;
+    width: 13rem;
+    object-fit: contain;
     border-radius: 4px;
 
 }
 
 .info {
     border-radius: 4px;
-    background-color: whitesmoke;
-    color: black;
-    width: 20rem;
-    height: 25rem;
+    /* background-color: whitesmoke; */
+    color: #BAC7D5;
+    position: absolute;
+
+    top: -3rem;
+    right: -300%;
+    width: 25rem;
+    height: 33rem;
+    display: none;
+    /* overflow-y: scroll; */
+    z-index: 1;
+    /* border: 1px solid chartreuse; */
+}
+
+.selected>.info {
+    display: block;
+    /* width: 40rem; */
 }
 
 .info h2 {
@@ -127,79 +167,74 @@
     /* text-indent: -10px; */
 }
 
-
-#left-arrow {
-    left: 24px;
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 48px;
-    height: 48px;
-
+.arrow-spacer {
+    position: relative;
+    /* top: -10rem; */
+    z-index: 15;
 }
 
-
-
-#right-arrow {
-    right: 24px;
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 48px;
-    height: 48px;
-
-}
 
 .grey-arrow {
     opacity: 30%;
 }
 
-.white-arrow {
-    /* opacity: 30%; */
-    border-radius: 40px;
-    background-color: rgba(0, 0, 0, 0.4);
 
+
+.click {
+    filter: blur(1px) drop-shadow(4px 1px 3px rgb(252, 252, 252)) drop-shadow(-4.25px -1px 3px rgb(255, 255, 255)) contrast(100%) !important;
+    scale: 150%;
+}
+
+.white-arrow {
+    /* position: relative; */
+    /* top: -18rem; */
+    filter: drop-shadow(4px 1px 3px #BAC7D5) drop-shadow(-4.25px -1px 3px #BAC7D5) contrast(95%);
 
 }
 
 .white-arrow:hover {
     cursor: pointer;
+    scale: 110%;
 }
 
 
 
 @media screen and (max-width: 750px) {
-    #projects-box-outer {
+    /* #projects-box-outer {
         display: flex;
         flex-direction: column;
-        /* order: 2; */
-        /* justify-content: right; */
         height: 100%;
 
         width: 100%;
         margin-top: -45px;
-    }
+    } */
 
     .project-card {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 22rem;
-        height: 100%;
-        overflow-wrap: break-word;
-        white-space: pre-wrap;
-        align-items: center;
+        flex-direction: column;
     }
 
-    .info {
-        border-radius: 4px;
-        background-color: whitesmoke;
-        color: black;
-        width: 20rem;
-        height: 40rem;
+    #projects-gallery {
+        max-width: 90vw;
+        top: 2rem;
     }
+
+
+    .info {
+        position: relative;
+        top: 0;
+        left: 0;
+        max-width: 90vw;
+        left: 10%;
+    }
+
+    .arrow-spacer {
+        position: relative;
+        /* top: -10rem; */
+        left: 25vw;
+        z-index: 15;
+    }
+
 
 
 }

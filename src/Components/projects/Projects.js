@@ -43,14 +43,14 @@ const Projects = () => {
                 <div id="projects-box-inner">
                     <div id="projects-display">
                         <div id="projects" >
-                            <div class="project-card">
+                            <div className="project-card">
                                 <div>
                                     <h2>DA: Tarot</h2>
-                                    <a href="http://ec2-52-53-252-167.us-west-1.compute.amazonaws.com/" class="image fit"><img
+                                    <a href="http://ec2-52-53-252-167.us-west-1.compute.amazonaws.com/" className="image fit"><img
                                         src="https://i.imgur.com/ITtWNrP.png"
                                         alt="" /></a>
                                 </div>
-                                <div class="info">
+                                <div className="info">
                                     <h2>A Challenge to reproduce the aesthetic of Dragon Age: Inquisition's character creation menu</h2>
 
                                     <p>
@@ -64,17 +64,17 @@ const Projects = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div id='card' class="project-card">
+                            <div id='card' className="project-card">
                                 <div>
                                     <h2>PipCamp</h2>
 
 
-                                    <a href="https://pip-camp.herokuapp.com/" class="image fit"><img
+                                    <a href="https://pip-camp.herokuapp.com/" className="image fit"><img
                                         src="https://user-images.githubusercontent.com/51832487/184191666-eef5ad5d-53fb-476d-a1d9-565f433633f5.png"
                                         alt="pipcamp" /></a>
                                 </div>
 
-                                <div class="info">
+                                <div className="info">
                                     <h2>
                                         A HipCamp-inspired Fallout-styled clone made with Flask / Python, React / Javascript,
                                         Heroku
@@ -97,16 +97,16 @@ const Projects = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div class="project-card">
+                            <div className="project-card">
                                 <div>
                                     <h2>CCDB</h2>
 
-                                    <a href="https://ccdb.onrender.com/" class="image fit"><img
+                                    <a href="https://ccdb.onrender.com/" className="image fit"><img
                                         src="https://i.imgur.com/SgmVX2W.png"
                                         alt="" /></a>
                                 </div>
 
-                                <div class="info">
+                                <div className="info">
                                     <h2>
                                         A Front-end for a movie database website
                                     </h2>
@@ -122,15 +122,15 @@ const Projects = () => {
                                 </div>
                             </div>
 
-                            <div class="project-card">
+                            <div className="project-card">
                                 <div>
                                     <h2>TableOpen</h2>
-                                    <a href="https://opentableproject.herokuapp.com/" class="image fit"><img
+                                    <a href="https://opentableproject.herokuapp.com/" className="image fit"><img
                                         src="https://pipcamp.s3.amazonaws.com/9b171670c45643d0a5c6ed5319cb1011.png"
                                         alt="" /></a>
                                 </div>
 
-                                <div class="info">
+                                <div className="info">
                                     <h2>An OpenTable clone; a Flask / React / Redux project with 3 teammates, constructed in 4
                                         days with 1 week of Python experience
                                     </h2>
@@ -151,14 +151,14 @@ const Projects = () => {
                                     </p>
                                 </div>
                             </div>
-                            {/* <div class="project-card">
+                            {/* <div className="project-card">
                                 <div>
                                     <h2>Moetaku</h2>
-                                    <a href="https://moetaku.herokuapp.com/" class="image fit"><img
+                                    <a href="https://moetaku.herokuapp.com/" className="image fit"><img
                                         src="https://user-images.githubusercontent.com/51832487/173195212-83059e16-c31c-447d-8544-83997478426e.png"
                                         alt="" /></a>
                                 </div>
-                                <div class="info">
+                                <div className="info">
                                     <h2>A Medium clone for creating and reviewing gaming articles: Express.js, PUG, Heroku
                                         hosting.</h2>
 
@@ -175,16 +175,16 @@ const Projects = () => {
                                     </p>
                                 </div>
                             </div> */}
-                            <div class="project-card">
+                            <div className="project-card">
                                 <div>
                                     <h2>Bark!</h2>
 
-                                    <a href="https://bark-eeb828.herokuapp.com/" class="image fit"><img
+                                    <a href="https://bark-eeb828.herokuapp.com/" className="image fit"><img
                                         src="https://pipcamp.s3.amazonaws.com/2d74cb10766c4ec29adefb13878991d2.png"
                                         alt="" /></a>
                                 </div>
 
-                                <div class="info">
+                                <div className="info">
                                     <h2>A Yelp clone for places you can take your dog: Express.js, React.js, Heroku
                                         hosting
                                     </h2>

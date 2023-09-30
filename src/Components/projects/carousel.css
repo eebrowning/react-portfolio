@@ -1,0 +1,213 @@
+#prev,
+#next {
+    max-height: 3rem;
+
+
+}
+
+
+#projects-select {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 45%;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxx */
+/* carousel is #projects */
+#projects {
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    margin: auto;
+    /* center line, chart */
+    /* border: 1px solid chartreuse; */
+    position: relative;
+
+}
+
+/* todo THIS IS THE PART */
+#projects>div {
+    position: absolute;
+    display: flex;
+    height: 30rem;
+    perspective: 800rem;
+}
+
+
+
+#projects div.hideLeft {
+    z-index: 1;
+    /* position: relative; */
+    /* left: 10%; */
+    /* opacity: 0; */
+    position: absolute;
+    transform: translateY(0%) translateX(-190%) translateZ(-600rem);
+    transition: transform 0.2s;
+    pointer-events: none;
+}
+
+#projects div.prevLeftSecond {
+    z-index: 4;
+    /* left: 35%; */
+    position: absolute;
+    transform: translateY(0%) translateX(-120%) translateZ(-400rem);
+    transition: transform 0.2s;
+    pointer-events: none;
+}
+
+#projects div.prev {
+    z-index: 5;
+    position: absolute;
+    transform: translateY(0%) translateX(-50%) translateZ(-200rem);
+    transition: transform 0.2s;
+    pointer-events: none;
+
+}
+
+#projects div.selected {
+    z-index: 10;
+    position: absolute;
+
+}
+
+#projects div.selected .project-display {
+    transform: translateY(0%) translateX(0%) translateZ(0);
+
+    transition: transform 0.2s;
+}
+
+/* #projects div.selected>.project-display {
+    z-index: 10;
+    transition: .2s;
+} */
+
+#projects div.next {
+    z-index: 5;
+    /* left: 60%; */
+    position: absolute;
+    transform: translateY(0%) translateX(50%) translateZ(-200rem);
+    transition: transform 0.2s;
+    pointer-events: none;
+
+}
+
+
+#projects div.nextRightSecond {
+    z-index: 4;
+    position: absolute;
+    transform: translateY(0%) translateX(120%) translateZ(-400rem);
+    transition: transform 0.2s;
+    pointer-events: none;
+
+}
+
+#projects div.hideRight {
+    z-index: 1;
+    /* opacity: 0; */
+    position: absolute;
+    transform: translateY(0%) translateX(190%) translateZ(-600rem);
+    transition: transform 0.2s;
+    pointer-events: none;
+
+}
+
+
+.trueHide {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    #projects>div {
+        left: 8vw
+    }
+
+    #projects div.hideLeft {
+        z-index: 1;
+        /* position: relative; */
+        /* left: 10%; */
+        /* opacity: 0; */
+        position: absolute;
+        transform: translateY(0%) translateX(-25vw) translateZ(-600rem);
+        transition: transform 0.2s;
+        pointer-events: none;
+    }
+
+    #projects div.prevLeftSecond {
+        z-index: 4;
+        /* left: 35%; */
+        position: absolute;
+        transform: translateY(0%) translateX(-15vw) translateZ(-400rem);
+        transition: transform 0.2s;
+        pointer-events: none;
+    }
+
+    #projects div.prev {
+        z-index: 5;
+        position: absolute;
+        transform: translateY(0%) translateX(-2vw) translateZ(-200rem);
+        transition: transform 0.2s;
+        pointer-events: none;
+
+    }
+
+    #projects div.selected {
+        z-index: 10;
+        position: absolute;
+        /* max-width: 40vw; */
+        overflow: auto;
+        transform: 0s;
+        transform: translateY(0%) translateX(-9vw) translateZ(0);
+
+    }
+
+    #projects div.selected .project-display {
+
+        /* transition: transform 0.2s; */
+    }
+
+    #projects div.next {
+        z-index: 5;
+        /* left: 60%; */
+        position: absolute;
+        transform: translateY(0%) translateX(30vw) translateZ(-200rem);
+        transition: transform 0.2s;
+        pointer-events: none;
+
+    }
+
+
+    #projects div.nextRightSecond {
+        z-index: 4;
+        position: absolute;
+        transform: translateY(0%) translateX(50vw) translateZ(-400rem);
+        transition: transform 0.2s;
+        pointer-events: none;
+
+    }
+
+    #projects div.hideRight {
+        z-index: 1;
+        /* opacity: 0; */
+        position: absolute;
+        transform: translateY(0%) translateX(70vw) translateZ(-600rem);
+        transition: transform 0.2s;
+        pointer-events: none;
+
+    }
+
+
+
+
+
+
+}
